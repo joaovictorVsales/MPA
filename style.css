@@ -7,6 +7,9 @@
 header{
     background-color: chartreuse;
 }
+body{
+    background-color: gainsboro;
+}
 
 ul{
     list-style: none;
@@ -17,6 +20,11 @@ li{
     margin: 15px;
 }
 
+li:hover{
+    background-color: rgb(245, 247, 246);
+    color: chartreuse;
+}
+
 #box{
     display: flex;
     margin: 5px;
@@ -24,17 +32,29 @@ li{
 }
 
 #principal{
-    margin-right:100px;
-    background-color: darkgray;
+    margin-right:0px;
+    background-color: rgb(245, 247, 246);
     border: solid black;
     border-radius: 3px;
     height: 300px;
-    width: 900px;
+    width: 600px;
+    justify-content: center;
+    overflow: hidden;
+    
 }
+
+#principal img{
+    height: 300px;
+    width: 600px;
+    
+}
+
+
+
 
 #lateral{
     margin-right: 10px;
-    background-color: darkgray;
+    background-color: rgb(245, 247, 246);
     border: solid black;
     border-radius: 3px;
     height: 300px;
@@ -43,7 +63,7 @@ li{
 
 
 p{
-   color: antiquewhite;
+   color: black;
 }
 
 #box2{
@@ -53,9 +73,21 @@ p{
 .extra{
     margin-right: 150px;
     margin-left: 150;
-    background-color: rgb(209, 34, 11);
+    background-color: rgb(245, 247, 246);
     border: solid black;
     border-radius: 3px;
-    height: 200px;
+    height: 400px;
+    width: 500px;
+    display: flex;
+    overflow: hidden;
+}
+
+.extra img{
+     height: 400px;
     width: 200px;
+    border: solid black 3px;
+}
+
+.extra p{
+    font-size: 19.2px;
 }

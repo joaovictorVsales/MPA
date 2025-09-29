@@ -4,12 +4,16 @@
 }
 
 body{
-    background-color: gainsboro;
+    background-image: url(images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;      
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header{
-    background-color: chartreuse;
+    background-color: rgb(12, 226, 137);
     padding: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
@@ -40,19 +44,20 @@ a{
 h2{
     text-align: center;
     margin: 20px;
+    color: white;
 }
 
 .vendas{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px; /* espaço entre os quadrados */
+    gap: 20px; 
     padding: 20px;
 }
 
 .item{
     display: flex;
-    border: 2px solid black;
+    border: 4px solid black;
     border-radius: 8px;
     background: white;
     width: 500px;
@@ -71,6 +76,8 @@ h2{
     height: 100%;
     object-fit: cover;
 }
+
+
 
 .info{
     padding: 15px;
